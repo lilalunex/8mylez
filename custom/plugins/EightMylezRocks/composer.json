@@ -1,6 +1,6 @@
 {
-  "name": "swag/theme-skeleton",
-  "description": "Theme skeleton plugin",
+  "name": "lunex/8mylez",
+  "description": "Testaufgaben",
   "type": "shopware-platform-plugin",
   "license": "MIT",
   "autoload": {
