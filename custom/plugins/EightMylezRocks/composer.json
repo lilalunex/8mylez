@@ -1,0 +1,18 @@
+{
+  "name": "swag/theme-skeleton",
+  "description": "Theme skeleton plugin",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "EightMylezRocks\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "EightMylezRocks\\EightMylezRocks",
+    "label": {
+      "de-DE": "Theme EightMylezRocks plugin",
+      "en-GB": "Theme EightMylezRocks plugin"
+    }
+  }
+}
