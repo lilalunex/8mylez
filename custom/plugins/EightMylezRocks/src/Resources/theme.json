@@ -1,10 +1,32 @@
 {
   "name": "EightMylezRocks",
   "author": "Shopware AG",
+  "config": {
+    "blocks": {
+      "plugin-settings": {
+        "label": {
+          "en-GB": "Plugin Settings",
+          "de-DE": "Plugin Einstellungen"
+        }
+      }
+    },
+    "fields": {
+      "addToCartClickedText": {
+        "label": {
+          "en-GB": "Text to show when putting into cart",
+          "de-DE": "Text der angezeigt wird, wenn Produkt in den Warenkorb gelegt wird"
+        },
+        "type": "text",
+        "value": "Putting in the cart",
+        "editable": true,
+        "block": "plugin-settings"
+      }
+    }
+  },
   "views": [
-     "@Storefront",
-     "@Plugins",
-     "@EightMylezRocks"
+    "@Storefront",
+    "@Plugins",
+    "@EightMylezRocks"
   ],
   "style": [
     "app/storefront/src/scss/overrides.scss",
