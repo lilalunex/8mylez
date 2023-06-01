@@ -11,7 +11,7 @@
       }
     },
     "fields": {
-      "backgroundcolor": {
+      "eight_backgroundcolor": {
         "label": {
           "en-GB": "The backgorund color of the animation.",
           "de-DE": "Die Hintergrundfarbe der Animation."

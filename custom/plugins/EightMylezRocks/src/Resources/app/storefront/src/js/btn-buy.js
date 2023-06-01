@@ -24,11 +24,13 @@ export default class ButtonBuy extends AddToCart {
 
 	// Die gewünschte Animation
 	_doAnimation() {
+		this._addToCartButton.disabled = true
 		this._addToCartButton.classList.add('putting-in-cart-animation')
 		this._addToCartButton.innerHTML = this._snippetAnimation
 		window.setTimeout(() => {
 			this._addToCartButton.classList.remove('putting-in-cart-animation')
 			this._addToCartButton.innerHTML = this._snippetDefault
+			this._addToCartButton.disabled = false
 		}, 1000)
 	}
 
