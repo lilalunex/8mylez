@@ -1,6 +1,6 @@
-import ButtonBuy from "./js/btn-buy";
+import ButtonBuy from "./js/btn-buy"
 
-// Damit wir ganz sicher das richtige Element ansprechen, hänge ich das hier an die ID an
-window.PluginManager.register('ButtonBuy', ButtonBuy, '#productDetailPageBuyProductForm')
-
-console.info('main.js loaded')
+// Abfrage damit die Animation nur in der Produkt-Detail-Seite passiert
+if (document.getElementsByClassName("product-detail").length > 0) {
+	window.PluginManager.override('AddToCart', ButtonBuy, '[data-add-to-cart]')
+}

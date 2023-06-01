@@ -11,13 +11,13 @@
       }
     },
     "fields": {
-      "addToCartClickedText": {
+      "backgroundcolor": {
         "label": {
-          "en-GB": "Text to show when putting into cart",
-          "de-DE": "Text der angezeigt wird, wenn Produkt in den Warenkorb gelegt wird"
+          "en-GB": "The backgorund color of the animation.",
+          "de-DE": "Die Hintergrundfarbe der Animation."
         },
-        "type": "text",
-        "value": "Putting in the cart",
+        "type": "color",
+        "value": "#595959",
         "editable": true,
         "block": "plugin-settings"
       }
