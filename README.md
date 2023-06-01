@@ -13,6 +13,8 @@
         - [x] Textbaaustein via Plugin realisieren
 - [x] Readme verschönern
 
+---
+
 ### Version 1
 
 Everything implemented except the snippts in the correct way. They we're done with a workaround using an existent snippet.
