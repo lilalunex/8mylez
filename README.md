@@ -13,6 +13,10 @@
         - [x] Textbaaustein via Plugin realisieren
 - [x] Readme verschönern
 
+### Bonus
+
+- [x] Buy-button disablen während der Animation
+
 ---
 
 ### Version 1
