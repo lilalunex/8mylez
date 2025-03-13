@@ -1,5 +1,5 @@
 # 8mylez.com
-## JavaSript aufgaben
+## JavaSript Aufgaben
 ---
 ### TODOs
 
